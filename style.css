@@ -15,5 +15,23 @@ h1{
     float: left;
     margin: 20px;
     background-size: 200% 200%;
+    transition: background-position 300ms;
+}
+.yellow{
     background-image: linear-gradient(to top, #FFF700 50%, transparent 50%);
+}
+.green{
+    background-image: linear-gradient(to top, #00ff22 50%, transparent 50%);
+}
+.blue{
+    background-image: linear-gradient(to top, #1900ff 50%, transparent 50%);
+}
+.violet{
+    background-image: linear-gradient(to top, #8c00ff 50%, transparent 50%);
+}
+.red{
+    background-image: linear-gradient(to top, #ff0000 50%, transparent 50%);
+}
+.brown{
+    background-image: linear-gradient(to top, #471b07 50%, transparent 50%);
 }

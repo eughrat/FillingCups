@@ -3,9 +3,11 @@ function  cupClick(evt) {
     level += 24;
     if(level <= 96){
         this.style.backgroundPosition = '0 ' + level + '%';
+        this.setAttribute('level', level);
+    } else {
+        this.style.cursor = "not-allowed";
     }
-    console.log(level);
-    this.setAttribute('level', level);
+    
 }
 
 let cups = document.querySelectorAll('.cup');
