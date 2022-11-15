@@ -35,3 +35,8 @@ h1{
 .brown{
     background-image: linear-gradient(to top, #471b07 50%, transparent 50%);
 }
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
